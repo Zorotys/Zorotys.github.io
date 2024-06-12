@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #102C46;
+    background: #171D1C;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #2B547A;
+    background: #4486B1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +23,18 @@ body {
 
 .name {
     font-size: 25px;
-    color: white;
+    color: #171D1C;
     text-decoration: none;
     font-weight: 600d;
 }
 
 .navbar a {
     font-size: 18px;
-    color: white;
+    color: #171D1C;
     text-decoration: none;
     font-weight: 500;
+}
+
+.navbar a:hover {
+    color: rgb(183, 204, 214);
 }
