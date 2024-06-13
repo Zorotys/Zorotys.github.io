@@ -38,7 +38,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #B5F8FF;
+    color: #FCDE9C;
 }
 
 .home {
@@ -61,7 +61,7 @@ body {
 .home-content h3 {
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     color: #FCDE9C;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .buttons {
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 .buttons button{
@@ -90,5 +90,14 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #B5F8FF;
+    background-color: #FCDE9C;
+}
+
+.picture {
+    padding: 0 10%;
+}
+
+.picture img {
+    width: 400px;
+    height: 400px;
 }
