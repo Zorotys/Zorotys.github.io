@@ -6,7 +6,8 @@
 }
 
 body {
-    background: #171D1C;
+    background: #08141F;
+    color: #ededed;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #4486B1;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,18 +24,70 @@ body {
 
 .name {
     font-size: 25px;
-    color: #171D1C;
+    color: #ededed;
     text-decoration: none;
-    font-weight: 600d;
+    font-weight: 700;
 }
 
 .navbar a {
     font-size: 18px;
-    color: #171D1C;
+    color: #ededed;
     text-decoration: none;
     font-weight: 500;
+    margin-left: 25px;
 }
 
 .navbar a:hover {
-    color: rgb(183, 204, 214);
+    color: #B5F8FF;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 40vw;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.home-content h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.home-content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-top: 5px;
+}
+
+.buttons button{
+    background-color: #ededed;
+    color: #08141F;
+
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background-color: #B5F8FF;
 }
