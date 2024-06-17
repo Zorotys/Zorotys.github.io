@@ -88,8 +88,25 @@ body {
     margin-bottom: 5px;
 }
 
+.links a {
+    text-decoration: none;
+    color: #FCDE9C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
++
+.links i {
+    padding-top: 10px;
+    transition-duration: .2s;
+}
+
+.links i:hover {
+    transform: scale(1.15);
+}
+
 .buttons {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .buttons button{
