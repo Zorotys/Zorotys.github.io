@@ -95,8 +95,9 @@ body {
     font-weight: 600;
     margin-right: 5px;
 }
-+
+
 .links i {
+    font-size: 35px;
     padding-top: 10px;
     transition-duration: .2s;
 }
